@@ -49,7 +49,7 @@ export default function Footer() {
                     {/* Brand */}
                     <div className="lg:col-span-1">
                         <Link href="/" className="text-2xl font-bold">
-                            MindMarket
+                            BrainBazaar
                         </Link>
                         <p className="mt-4 text-gray-400 text-sm leading-relaxed">
                             Global research insights that drive business decisions.
@@ -131,7 +131,7 @@ export default function Footer() {
                 {/* Bottom Bar */}
                 <div className="py-6 border-t border-white/10 flex flex-col md:flex-row justify-between items-center gap-4">
                     <p className="text-gray-400 text-sm">
-                        © {new Date().getFullYear()} MindMarket. All rights reserved.
+                        © {new Date().getFullYear()} BrainBazaar. All rights reserved.
                     </p>
                     <ul className="flex gap-6">
                         {footerLinks.legal.map((link) => (

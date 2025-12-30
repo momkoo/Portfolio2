@@ -15,8 +15,8 @@ const organizationJsonLd = generateOrganizationJsonLd();
 
 export const metadata: Metadata = {
   title: {
-    default: "MindMarket | Global Research Insights",
-    template: "%s | MindMarket",
+    default: "BrainBazaar | Global Research Insights",
+    template: "%s | BrainBazaar",
   },
   description:
     "Real human insights from around the world. We help brands understand their customers through qualitative and quantitative research across 55+ countries.",
@@ -28,13 +28,13 @@ export const metadata: Metadata = {
     "quantitative research",
     "UX research",
   ],
-  authors: [{ name: "MindMarket" }],
+  authors: [{ name: "BrainBazaar" }],
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://mindmarket.com",
-    siteName: "MindMarket",
-    title: "MindMarket | Global Research Insights",
+    url: "https://brainbazaar.com",
+    siteName: "BrainBazaar",
+    title: "BrainBazaar | Global Research Insights",
     description:
       "Real human insights from around the world. We help brands understand their customers through qualitative and quantitative research.",
     images: [
@@ -42,13 +42,13 @@ export const metadata: Metadata = {
         url: "/og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "MindMarket - Global Research Insights",
+        alt: "BrainBazaar - Global Research Insights",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "MindMarket | Global Research Insights",
+    title: "BrainBazaar | Global Research Insights",
     description: "Real human insights from around the world.",
     images: ["/og-image.jpg"],
   },

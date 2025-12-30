@@ -76,10 +76,10 @@ export default function CTASection() {
                         <p className="text-muted text-sm">
                             Or reach us directly at{' '}
                             <a
-                                href="mailto:curious@mindmarket.com"
+                                href="mailto:curious@brainbazaar.com"
                                 className="text-accent hover:underline"
                             >
-                                curious@mindmarket.com
+                                curious@brainbazaar.com
                             </a>
                         </p>
                     </motion.div>

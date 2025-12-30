@@ -55,7 +55,7 @@ export default function FeatureGrid() {
                     className="text-center max-w-2xl mx-auto mb-16"
                 >
                     <h2 className="text-foreground mb-4">
-                        Why brands choose <span className="gradient-text">MindMarket</span>
+                        Why brands choose <span className="gradient-text">BrainBazaar</span>
                     </h2>
                     <p className="text-muted text-lg">
                         We combine global reach with local expertise to deliver insights that matter.

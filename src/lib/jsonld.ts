@@ -35,19 +35,19 @@ export function generateOrganizationJsonLd(): OrganizationJsonLd {
     return {
         '@context': 'https://schema.org',
         '@type': 'Organization',
-        name: 'MindMarket',
-        url: 'https://mindmarket.com',
-        logo: 'https://mindmarket.com/logo.png',
+        name: 'BrainBazaar',
+        url: 'https://brainbazaar.com',
+        logo: 'https://brainbazaar.com/logo.png',
         description:
             'Global research company helping brands understand their customers through qualitative and quantitative research across 55+ countries.',
         contactPoint: {
             '@type': 'ContactPoint',
-            email: 'curious@mindmarket.com',
+            email: 'curious@brainbazaar.com',
             contactType: 'customer service',
         },
         sameAs: [
-            'https://linkedin.com/company/mindmarket',
-            'https://twitter.com/mindmarket',
+            'https://linkedin.com/company/brainbazaar',
+            'https://twitter.com/brainbazaar',
         ],
     }
 }
@@ -58,7 +58,7 @@ export function generateArticleJsonLd(article: {
     publishedAt: string
     slug: string
 }): ArticleJsonLd {
-    const baseUrl = 'https://mindmarket.com'
+    const baseUrl = 'https://brainbazaar.com'
 
     return {
         '@context': 'https://schema.org',
@@ -67,11 +67,11 @@ export function generateArticleJsonLd(article: {
         description: article.excerpt,
         author: {
             '@type': 'Organization',
-            name: 'MindMarket',
+            name: 'BrainBazaar',
         },
         publisher: {
             '@type': 'Organization',
-            name: 'MindMarket',
+            name: 'BrainBazaar',
             logo: {
                 '@type': 'ImageObject',
                 url: `${baseUrl}/logo.png`,

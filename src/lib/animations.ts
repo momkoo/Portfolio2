@@ -118,7 +118,7 @@ export const heroCTA: Variants = {
 }
 
 // Card hover animation
-export const cardHover = {
+export const cardHover: Variants = {
     rest: {
         scale: 1,
         transition: { duration: 0.4, ease: [0.25, 0.1, 0.25, 1] }
@@ -129,7 +129,7 @@ export const cardHover = {
     }
 }
 
-export const imageHover = {
+export const imageHover: Variants = {
     rest: {
         scale: 1,
         transition: { duration: 0.4, ease: [0.25, 0.1, 0.25, 1] }

@@ -42,7 +42,7 @@ export default function AboutContent() {
                         transition={{ duration: 0.6 }}
                         className="max-w-3xl"
                     >
-                        <h1 className="text-white mb-6">About MindMarket</h1>
+                        <h1 className="text-white mb-6">About BrainBazaar</h1>
                         <p className="text-xl text-gray-300 leading-relaxed">
                             We're a global research company on a mission to help brands truly
                             understand their customers and markets.
@@ -63,7 +63,7 @@ export default function AboutContent() {
                             <h2 className="text-foreground mb-6">Our Story</h2>
                             <div className="space-y-4 text-muted leading-relaxed">
                                 <p>
-                                    Founded in 2015, MindMarket began with a simple belief: that great
+                                    Founded in 2015, BrainBazaar began with a simple belief: that great
                                     business decisions are built on a foundation of genuine human understanding.
                                 </p>
                                 <p>
