@@ -134,7 +134,7 @@ export default function HeroAnimated() {
                         transition={{ duration: 3.5, repeat: Infinity, ease: 'easeInOut', delay: 0.5 }}
                     >
                         <Image
-                            src="/images/hero-man.png"
+                            src="/images/hero-man-v2.png"
                             alt="Man analyzing charts"
                             width={288}
                             height={288}
