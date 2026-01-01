@@ -115,6 +115,8 @@ export default function HeroAnimated() {
                             width={288}
                             height={288}
                             className="w-full h-full object-contain"
+                            priority
+                            sizes="(max-width: 768px) 160px, (max-width: 1024px) 224px, 288px"
                         />
                     </motion.div>
                 </motion.div>
@@ -137,6 +139,8 @@ export default function HeroAnimated() {
                             width={288}
                             height={288}
                             className="w-full h-full object-contain"
+                            priority
+                            sizes="(max-width: 768px) 160px, (max-width: 1024px) 224px, 288px"
                         />
                     </motion.div>
                 </motion.div>
@@ -159,6 +163,8 @@ export default function HeroAnimated() {
                             width={112}
                             height={112}
                             className="w-full h-full object-contain opacity-70"
+                            priority
+                            sizes="(max-width: 768px) 80px, (max-width: 1024px) 112px, 112px"
                         />
                     </motion.div>
                 </motion.div>
@@ -184,6 +190,8 @@ export default function HeroAnimated() {
                             width={128}
                             height={128}
                             className="w-full h-full object-contain"
+                            priority
+                            sizes="(max-width: 768px) 96px, (max-width: 1024px) 128px, 128px"
                         />
                     </motion.div>
                 </motion.div>
